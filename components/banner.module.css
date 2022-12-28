@@ -1,0 +1,60 @@
+.container {
+  margin-bottom: 6rem;
+}
+
+.title {
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  color: var(--text-black);
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.title1 {
+  color: var(--text-white-100);
+}
+
+.title2 {
+  display: block;
+  color: var(--text-orange);
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--text-white-100);
+}
+
+.button {
+  background-color: var(--text-orange-dark);
+  cursor: pointer;
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+/* Breakpoints */
+/* SM --> 640
+md --> 768px
+lg --> 1024px
+xl --> 1280px
+2xl --> 1536px */
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1536px) {
+}
