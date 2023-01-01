@@ -28,3 +28,25 @@ body {
 
   color: #373737;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+p {
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+  font-weight: 600;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
