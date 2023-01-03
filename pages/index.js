@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Banner from "../components/banner";
+import Card from "../components/card";
 
 export default function Home() {
   const handleBtnOnClick = () => {
@@ -20,6 +21,12 @@ export default function Home() {
         <Banner
           buttonText="View stores nearby"
           handleBtnOnClick={handleBtnOnClick}
+        />
+
+        <Card
+          href="/coffee-store/mlbb-coffee"
+          storeName="MLBB Coffee"
+          imgUrl="/static/images/jabee.png"
         />
       </main>
     </>
